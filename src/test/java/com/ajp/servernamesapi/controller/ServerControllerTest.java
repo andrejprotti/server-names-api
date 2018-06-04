@@ -1,7 +1,6 @@
 package com.ajp.servernamesapi.controller;
 
 import com.ajp.servernamesapi.ServerNamesApiApplication;
-import com.ajp.servernamesapi.exception.ResourceNotFoundException;
 import com.ajp.servernamesapi.model.Server;
 import com.ajp.servernamesapi.repository.ServerRepository;
 import org.junit.Before;
