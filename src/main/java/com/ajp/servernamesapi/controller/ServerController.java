@@ -49,6 +49,7 @@ public class ServerController {
                 .orElseThrow(() -> new ResourceNotFoundException("Server", "id", serverId));
 
         server.setName(serverDetails.getName());
+        server.setDescription(serverDetails.getDescription());
 
         return serverRepository.save(server);
     }
@@ -61,6 +62,19 @@ public class ServerController {
         serverRepository.delete(server);
 
         return ResponseEntity.ok().build();
+    }
+
+    @GetMapping("/servers/count")
+    public ResponseEntity<?> getServerCount(){
+        long serverCount = serverRepository.count();
+        return ResponseEntity.ok(String.valueOf(serverCount));
+    }
+
+    @GetMapping("/help")
+    public ResponseEntity<?> getHelp(){
+        long serverCount = serverRepository.count();
+        return ResponseEntity.ok("For more information on how to use this API, " +
+                "please visit https://github.com/andrejprotti/server-names-api");
     }
 
 }

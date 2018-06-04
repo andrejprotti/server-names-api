@@ -32,6 +32,9 @@ public class Server implements Serializable {
     @NotBlank
     private String name;
 
+    @NotBlank
+    private String description;
+
     @Column(nullable = false, updatable = false)
     @Temporal(TemporalType.TIMESTAMP)
     @CreatedDate
@@ -72,5 +75,13 @@ public class Server implements Serializable {
 
     public void setUpdatedAt(Date updatedAt) {
         this.updatedAt = updatedAt;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }
