@@ -19,7 +19,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 @Entity
-@Table(name = "notes")
+@Table(name = "servers")
 @EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(value = {"createdAt", "updatedAt"},
         allowGetters = true)
