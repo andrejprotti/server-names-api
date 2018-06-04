@@ -45,6 +45,14 @@ public class Server implements Serializable {
     @LastModifiedDate
     private Date updatedAt;
 
+    public Server() {
+    }
+
+    public Server(@NotBlank String name, @NotBlank String description) {
+        this.name = name;
+        this.description = description;
+    }
+
     public Long getId() {
         return id;
     }

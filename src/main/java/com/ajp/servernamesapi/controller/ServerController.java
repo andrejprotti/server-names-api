@@ -66,8 +66,8 @@ public class ServerController {
 
     @GetMapping("/servers/count")
     public ResponseEntity<?> getServerCount(){
-        long serverCount = serverRepository.count();
-        return ResponseEntity.ok(String.valueOf(serverCount));
+        String serverCount = String.valueOf(serverRepository.count());
+        return ResponseEntity.ok(serverCount);
     }
 
     @GetMapping("/help")
