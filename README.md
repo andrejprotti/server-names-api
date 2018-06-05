@@ -2,7 +2,7 @@
 
 ![Image](https://i.imgur.com/fBwCn06.jpg)
 
-**server-names-api** takes a REST API approach to the basic CRUD functionality of the problem that was presented. Using Maven, Spring Boot, Hibernate and MySQL.
+**server-names-api** takes a REST API approach to the basic CRUD functionality of the problem that was presented. Using Maven, Spring Boot, Hibernate and MySQL. I have chosen this approach because I felt it was more appropriate to the Create, Read, Update and Delete nature of what was presented as it could eventually become a Micro Service later on. I also believe I can present my skills better this way!
 
 ## Requirements
 
