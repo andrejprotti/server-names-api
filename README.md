@@ -8,7 +8,7 @@
 
 - Java 8
 - Maven 3.5.3
-- A running instance of MySQL with server_name_api and server_name_api_test databases created. **Don't forget** to add your database credentials to **/src/main/resources/application.properties** and **/src/test/resources/application.properties** !
+- A running instance of MySQL with **server_names_api** and **server_names_api_test** databases created. **Don't forget** to add your database credentials to **/src/main/resources/application.properties** and **/src/test/resources/application.properties** !
 
 ## Usage
 
