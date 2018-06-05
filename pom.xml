@@ -5,7 +5,7 @@
 
 	<groupId>com.ajp</groupId>
 	<artifactId>server-names-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>server-names-api</name>
