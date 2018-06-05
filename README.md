@@ -12,7 +12,7 @@
 
 ## Usage
 
-To install the application and run the tests:
+After cloning the project and switching to the project root, install the application and run the tests with:
 
     mvn clean install
 
