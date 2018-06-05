@@ -45,11 +45,7 @@ curl -X GET \
   http://localhost:8080/servers/ \
   -H 'Cache-Control: no-cache' \
   -H 'Content-Type: application/json' \
-  -H 'Postman-Token: 142987c6-a8ae-41da-b25a-f60cf1de551a' \
-  -d '{
-  "name":"server1",
-  "description":"test"
-}'
+  -H 'Postman-Token: 142987c6-a8ae-41da-b25a-f60cf1de551a'
 ```
 
 Get one specific server (use the id on the database):
@@ -59,11 +55,7 @@ curl -X GET \
   http://localhost:8080/servers/1 \
   -H 'Cache-Control: no-cache' \
   -H 'Content-Type: application/json' \
-  -H 'Postman-Token: 3093be91-9f64-49d7-8069-609375a16837' \
-  -d '{
-  "name":"server1",
-  "description":"test"
-}'
+  -H 'Postman-Token: 3093be91-9f64-49d7-8069-609375a16837'
 ```
 
 Update a server (remember to change de id!):
